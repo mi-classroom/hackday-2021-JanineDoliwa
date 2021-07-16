@@ -462,7 +462,6 @@ button.btn {
 /* Card Image with Caption
 ############################################################################ */
 .card-image-with-caption {
-  border-radius: 0.8rem;
   overflow: hidden;
   background-color: #000;
   position: relative; }
@@ -475,7 +474,8 @@ button.btn {
     left: 0;
     padding: 1.28rem;
     padding-top: 2rem;
-    padding-bottom: 0.8rem; }
+    padding-bottom: 0.8rem;
+    border-top: 1px solid #666666; }
     .card-image-with-caption > figcaption > .additional-info {
       display: none; }
   .is-list-view .card-image-with-caption {
